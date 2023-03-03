@@ -1,6 +1,6 @@
 <div align="center">
     <h1>VinciShop</h1>
-    <p align="center"><a href="https://www.vinci-melun.org/" target="_blank"><img src="https://raw.githubusercontent.com/Lasauce6/VinciShop/storage/app/imgs/logo.svg" width="250" alt="Lycée Léonard de Vinci"></a></p>
+    <p align="center"><a href="https://www.vinci-melun.org/" target="_blank"><img src="https://raw.githubusercontent.com/Lasauce6/VinciShop/master/storage/app/imgs/logo.svg" width="250" alt="Lycée Léonard de Vinci"></a></p>
     <p>Pop-up store of the business BTS at Lycée Léonard de Vinci in Melun</p>
 </div>
 
