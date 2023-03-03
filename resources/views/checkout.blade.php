@@ -50,6 +50,9 @@
                                     <a href="{{ route('index') }}/" aria-current="page">Vinci shop</a>
                                 </li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                    <a href="{{ route('infos') }}">Informations</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page">
                                     <a href="{{ route('products') }}">Réservez vos produits</a>
                                 </li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page curent-menu-item">
@@ -59,6 +62,17 @@
                                         </svg>
                                         Panier
                                     </a>
+                                </li>
+                                @auth()
+                                    <li>
+                                        <a href="{{ route('admin.index') }}">Admin</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('logout') }}">Déconnexion</a>
+                                    </li>
+                                @endauth
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page col-md3 text-end">
+                                    <img src="{{ asset('storage/images/logo.png') }}" style="width: 30%">
                                 </li>
                             </ul>
                         </div>

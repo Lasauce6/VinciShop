@@ -24,4 +24,8 @@ class MainController extends Controller {
 
         return view('product', ['produit' => $produit]);
     }
+
+    public function infos() {
+        return view('infos');
+    }
 }

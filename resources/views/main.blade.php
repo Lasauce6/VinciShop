@@ -631,14 +631,25 @@
                     <p><strong>Heures d’ouverture</strong></p>
                     <table>
                         <tr>
-                            <th>8 au 10 mars 2023</th>
-                            <th>11 mars 2023</th>
+                            <th>08/03/2023</th>
+                            <th>09/03/2023</th>
+                            <th>10/03/2023</th>
+                            <th>11/03/2023</th>
                         </tr>
                         <tr>
-                            <td>12h05-13h30</td>
-                            <td>9h00-13h00</td>
+                            <td>12h20-13h25</td>
+                            <td>12h20-13h25</td>
+                            <td>12h20-13h25</td>
+                            <td>8h30-12h30</td>
+                        </tr>
+                        <tr>
+                            <td>17h30-18h30</td>
+                            <td>16h30-18h30</td>
+                            <td>15h30-18h30</td>
+                            <td></td>
                         </tr>
                     </table>
+                    <p>Nous vous retrouverons à droite du CDI dans le lycée</p>
                 </div>
             </div>
 

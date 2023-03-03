@@ -50,6 +50,9 @@
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home">
                                     <a href="{{ route('index') }}/" aria-current="page">Vinci shop</a>
                                 </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                    <a href="{{ route('infos') }}">Informations</a>
+                                </li>
                                 <li id="menu-item-198"
                                     class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item">
                                     <a href="{{ route('products') }}">Réservez vos produits</a>
@@ -70,6 +73,9 @@
                                         <a href="{{ route('logout') }}">Déconnexion</a>
                                     </li>
                                 @endauth
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page col-md3 text-end">
+                                    <img src="{{ asset('storage/images/logo.png') }}" style="width: 30%">
+                                </li>
                             </ul>
                         </div>
                     </nav><!-- #site-navigation -->
@@ -96,7 +102,7 @@
                             <h2><strong>Savons</strong></h2>
                         @endif
                         @if($produit->qte > 0)
-                            <div class="col-4 mt-3">
+                            <div class="col-3 mt-3">
                                 <a href="{{ route('product', $produit->id) }}">
                                     <img src="{{ asset('storage/images/products/' . $produit->image) }}" alt="Image du produit" width="50%" class="img-thumbnail">
                                 </a>

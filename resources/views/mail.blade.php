@@ -235,27 +235,58 @@
                                         </table></td>
                                 </tr>
                                 <tr>
-                                    <td align="left" style="padding:0;Margin:0;padding-left:20px;padding-right:20px;padding-bottom:40px"><!--[if mso]><table style="width:560px" cellpadding="0" cellspacing="0"><tr><td style="width:270px" valign="top"><![endif]-->
+                                    <td align="left" style="padding:0;Margin:0;padding-left:20px;padding-right:20px;padding-bottom:30px"><!--[if mso]><table style="width:560px" cellpadding="0" cellspacing="0"><tr><td style="width:145px" valign="top"><![endif]-->
                                         <table cellpadding="0" cellspacing="0" class="es-left" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
                                             <tr>
-                                                <td class="es-m-p20b" align="left" style="padding:0;Margin:0;width:270px">
+                                                <td class="es-m-p0r es-m-p20b" align="center" style="padding:0;Margin:0;width:125px">
                                                     <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                                                         <tr>
-                                                            <td align="left" style="padding:0;Margin:0"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#47391f;font-size:14px"><b>8 au 10 mars 2023</b><br>12h05-13h30</p></td>
+                                                            <td align="left" style="padding:0;Margin:0"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#47391f;font-size:14px">
+                                                                    <b>08/03/2023</b><br>12h20-13h25<br>17h30-18h30</p></td>
+                                                        </tr>
+                                                    </table></td>
+                                                <td class="es-hidden" style="padding:0;Margin:0;width:20px"></td>
+                                            </tr>
+                                        </table><!--[if mso]></td><td style="width:145px" valign="top"><![endif]-->
+                                        <table cellpadding="0" cellspacing="0" class="es-left" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
+                                            <tr>
+                                                <td class="es-m-p20b" align="center" style="padding:0;Margin:0;width:125px">
+                                                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                        <tr>
+                                                            <td align="left" style="padding:0;Margin:0"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#47391f;font-size:14px">
+                                                                    <strong>09/03/2023</strong><br>12h20-13h25<br>16h30-18h30</p></td>
+                                                        </tr>
+                                                    </table></td>
+                                                <td class="es-hidden" style="padding:0;Margin:0;width:20px"></td>
+                                            </tr>
+                                        </table><!--[if mso]></td><td style="width:125px" valign="top"><![endif]-->
+                                        <table cellpadding="0" cellspacing="0" class="es-left" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
+                                            <tr>
+                                                <td class="es-m-p20b" align="center" style="padding:0;Margin:0;width:125px">
+                                                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                        <tr>
+                                                            <td align="left" style="padding:0;Margin:0"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#47391f;font-size:14px">
+                                                                    <strong>10/03/2023</strong><br>12h20-13h25<br>15h30-18h30</p></td>
                                                         </tr>
                                                     </table></td>
                                             </tr>
-                                        </table><!--[if mso]></td><td style="width:20px"></td><td style="width:270px" valign="top"><![endif]-->
+                                        </table><!--[if mso]></td><td style="width:20px"></td><td style="width:125px" valign="top"><![endif]-->
                                         <table cellpadding="0" cellspacing="0" class="es-right" align="right" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right">
                                             <tr>
-                                                <td align="left" style="padding:0;Margin:0;width:270px">
+                                                <td align="center" style="padding:0;Margin:0;width:125px">
                                                     <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                                                         <tr>
-                                                            <td align="left" style="padding:0;Margin:0"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#47391f;font-size:14px"><strong>11 mars 2023</strong><br>9h00-13h00</p></td>
+                                                            <td align="left" style="padding:0;Margin:0"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#47391f;font-size:14px">
+                                                                    <strong>11/03/2023</strong><br>8h30-12h30</p></td>
                                                         </tr>
                                                     </table></td>
+
                                             </tr>
+
                                         </table><!--[if mso]></td></tr></table><![endif]--></td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="padding:5px;Margin:0"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#47391f;font-size:14px">Nous vous retrouverons à droite du CDI dans le lycée</p></td>
                                 </tr>
                             </table></td>
                     </tr>
