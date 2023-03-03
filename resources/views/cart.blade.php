@@ -150,6 +150,7 @@
                                 <a href="{{ route('cart.destroy') }}" class="btn btn-danger">Vider le panier</a>
                                 <a href="{{ route('cart.checkout') }}" class="btn btn-success">Réserver</a>
                             </div>
+                            <p class="text-end">(Dans la limite des stocks disponibles)</p>
                         </div>
                     </div>
                 </div>

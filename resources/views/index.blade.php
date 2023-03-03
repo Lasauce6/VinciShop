@@ -111,8 +111,11 @@
                                             </div>
                                         @endif
 
-                                        <p>Les étudiants des BTS commerciaux du <a href="https://www.vinci-melun.org/">Lycée Polyvalent Léonard de Vinci (Melun)</a> s’emparent d’un concept tendance : le
-                                            <strong>pop up store </strong></p>
+                                            <div class="text-center">
+                                                <h3>Les étudiants des BTS commerciaux du <a href="https://www.vinci-melun.org/">Lycée Polyvalent Léonard de Vinci (Melun)</a> s’emparent d’un concept tendance : le
+                                                    <strong>pop up store </strong></h3>
+                                            </div>
+
                                         <div
                                             class="wp-block-media-text alignwide has-media-on-the-right is-stacked-on-mobile"
                                             style="grid-template-columns:auto 33%">
