@@ -51,7 +51,7 @@
                                     <a href="{{ route('index') }}/" aria-current="page">Vinci shop</a>
                                 </li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                                    <a href="{{ route('infos') }}">Informations</a>
+                                    <a href="{{ route('infos') }}">Saison 2023</a>
                                 </li>
                                 <li id="menu-item-198"
                                     class="menu-item menu-item-type-post_type menu-item-object-page">
