@@ -23,3 +23,5 @@ Route::get('/login', [AdminController::class, 'login'])->name('login');
 Route::post('/login', [AdminController::class, 'loginSend'])->name('login.send');
 Route::get('/admin', [AdminController::class, 'index'])->middleware('auth')->name('admin.index');
 Route::get('/logout', [AdminController::class, 'logout'])->middleware('auth')->name('logout');
+
+//Route::get('/createCreds', [AdminController::class, 'createCreds'])->name('createCreds');

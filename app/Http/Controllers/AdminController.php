@@ -3,11 +3,15 @@
 namespace App\Http\Controllers;
 
 use App\Models\Commande;
+use Illuminate\Contracts\Foundation\Application;
+use Illuminate\Contracts\View\Factory;
+use Illuminate\Contracts\View\View;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 
 class AdminController extends Controller
 {
-    public function index()
+    public function index(): Factory|View|Application
     {
         $commandes = Commande::all();
         for ($i = 0; $i < count($commandes); $i++) {
@@ -17,12 +21,12 @@ class AdminController extends Controller
         return view('admin', ['commandes' => $commandes]);
     }
 
-    public function login()
+    public function login(): Factory|View|Application
     {
         return view('login');
     }
 
-    public function loginSend(Request $request)
+    public function loginSend(Request $request): RedirectResponse
     {
         $credentials = $request->only('email', 'password');
         if (auth()->attempt($credentials)) {
@@ -31,9 +35,21 @@ class AdminController extends Controller
         return redirect()->route('login')->withErrors(['auth' => 'Email ou mot de passe incorrect.']);
     }
 
-    public function logout()
+    public function logout(): RedirectResponse
     {
         auth()->logout();
         return redirect()->route('index');
     }
+
+//    public function createCreds(): RedirectResponse
+//    {
+//        $user = new \App\Models\User();
+//        $user->name = 'admin';
+//        $user->email = 'your_email/username';
+//        $user->password = bcrypt('your_password');
+//        $user->save();
+//
+//        return redirect()->route('index');
+//
+//    }
 }
