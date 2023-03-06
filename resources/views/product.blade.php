@@ -100,7 +100,7 @@
                         <div class="row">
                             <div class="col">
                                 @if($produit->qte == 0)
-                                    <div class="alert alert-danger" role="alert">
+                                    <div class="alert alert-danger text-center" role="alert">
                                         Ce produit est actuellement indisponible
                                     </div>
                                 @else

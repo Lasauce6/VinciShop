@@ -88,10 +88,10 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-md-6">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <div class="card">
+                                    <div class="card-body">
                                         <h4 class="mb-3">Informations de commande</h4>
                                         <form class="form needs-validation" action="" method="post">
                                             @csrf

@@ -134,7 +134,7 @@
 
                 <div class="is-layout-flex wp-block-buttons">
                     <div class="wp-block-button aligncenter">
-                        <a class="wp-block-button__link has-luminous-vivid-orange-background-color has-background wp-element-button" href="{{ route('products') }}">Voir la sélection de produits</a>
+                        <a class="wp-block-button__link has-luminous-vivid-orange-background-color wp-element-button" href="{{ route('products') }}" style="color: white">Voir la sélection de produits</a>
                     </div>
                 </div>
 

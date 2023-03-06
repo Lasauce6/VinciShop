@@ -11,7 +11,7 @@
     <div class="positon-relative">
         <div class="position-absolute top-50 start-50 translate-middle">
             @if($errors->any())
-                <div class="alert alert-danger">
+                <div class="alert alert-danger text-center">
                     <ul>
                         @foreach($errors->all() as $error)
                             <li>{{ $error }}</li>
