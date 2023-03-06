@@ -90,7 +90,7 @@
                     <div class="col-md-12">
                         @if($cart == [])
                             <div class="alert alert-danger text-center">
-                                Votre panier est vide <br> <a href="{{ route('products') }}">Retourner à la boutique</a>
+                                Votre panier est vide <br> <a class="text-decoration-underline" href="{{ route('products') }}">Retourner à la boutique</a>
                             </div>
                         @else
                             <h1 class="mb-5">Votre panier</h1>
@@ -161,13 +161,14 @@
                                     </a>
                                     <a href="{{ route('cart.checkout') }}" class="wp-block-button__link"
                                        style="color: white; background-color: green;">
-                                        Réserver
+                                        Réserver*
                                     </a>
     {{--                                <a href="{{ route('products') }}" class="btn btn-primary">Continuer votre commande</a>--}}
     {{--                                <a href="{{ route('cart.destroy') }}" class="btn btn-danger">Vider le panier</a>--}}
     {{--                                <a href="{{ route('cart.checkout') }}" class="btn btn-success">Réserver</a>--}}
                                 </div>
                                 <p class="text-end mt-1">(Dans la limite des stocks disponibles)</p>
+                                <p class="text-muted text-start mt-5">*Cette commande ne fait compte que de réservation, vous avez rdv dans le lycée aux <a href="/#horaires" class="text-muted text-decoration-underline">horaires d'ouverture du pop up store</a> afin de payer et récupérer vos produits</p>
                             </div>
                         @endif
                     </div>
