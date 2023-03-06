@@ -74,7 +74,7 @@
                                     </li>
                                 @endauth
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page col-md3 text-end">
-                                    <img src="{{ asset('storage/images/logo.png') }}" style="width: 30%">
+                                    <img src="{{ asset('storage/images/logo.png') }}" style="width: 30%" alt="Logo du lycée">
                                 </li>
                             </ul>
                         </div>
@@ -110,9 +110,10 @@
                                     <h2>{{ $produit->nom }}</h2>
                                     <p>{!! $produit->description !!}</p>
                                     <p><strong>Prix</strong> : {{ $produit->prix }} €</p>
-                                    <label for="quantity"><p><strong>Quantité</strong> : </label><input class="mt-2" type="number" name="quantite" id="quantite" min="1" max="{{ $produit->qte }}" value="1"></p>
+                                    <label for="quantity"><p><strong>Quantité</strong> : </label><label
+                                        for="quantite"></label><input class="mt-2" type="number" name="quantite" id="quantite" min="1" max="{{ $produit->qte }}" value="1">
 
-                                    <button type="submit" class="btn btn-primary" style="border: none">Ajouter au panier</button>
+                                    <button type="submit" class="btn btn-primary mt-3" style="border: none">Ajouter au panier</button>
                                 </form>
                                 @endif
                             </div>

@@ -72,7 +72,7 @@
                                     </li>
                                 @endauth
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page col-md3 text-end">
-                                    <img src="{{ asset('storage/images/logo.png') }}" style="width: 30%">
+                                    <img src="{{ asset('storage/images/logo.png') }}" style="width: 30%" alt="Logo du lycée">
                                 </li>
                             </ul>
                         </div>
@@ -126,7 +126,9 @@
                                             <td>
                                                 <input type="hidden" name="id" value="{{ $product['id'] }}">
                                                 <div class="input-group">
-                                                    <input type="number" name="quantite" value="{{ $product['quantite'] }}" min="1" max="{{ $product['qte'] }}" class="form-control mr-2" style="width: 0">
+                                                    <label>
+                                                        <input type="number" name="quantite" value="{{ $product['quantite'] }}" min="1" max="{{ $product['qte'] }}" class="form-control mr-2" style="width: 0">
+                                                    </label>
                                                 </div>
                                             </td>
                                             <td>

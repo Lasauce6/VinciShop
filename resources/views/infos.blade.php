@@ -74,7 +74,7 @@
                                     </li>
                                 @endauth
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page col-md3 text-end">
-                                    <img src="{{ asset('storage/images/logo.png') }}" style="width: 30%">
+                                    <img src="{{ asset('storage/images/logo.png') }}" style="width: 30%" alt="Logo du lycée">
                                 </li>
                             </ul>
                         </div>
