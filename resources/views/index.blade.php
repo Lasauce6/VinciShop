@@ -173,6 +173,14 @@
                                                     <td></td>
                                                 </tr>
                                             </table>
+                                            <table>
+                                                <tr>
+                                                    <th>Du 14 au 17 mars 2023</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>12h20-13h20</td>
+                                                </tr>
+                                            </table>
                                             <p>Nous vous retrouverons à droite du CDI dans le lycée</p>
 
 
