@@ -95,6 +95,9 @@
                         <th>Email</th>
                         <th>Commande</th>
                         <th>Total</th>
+                        <th>Date</th>
+                        <th>Traitée</th>
+                        <th></th>
                     </tr>
 
                     @foreach($commandes as $commande)
@@ -117,6 +120,19 @@
                                 @endforeach
                             </td>
                             <td>{{ $commande->total }} €</td>
+                            <td>{{ $commande->created_at }}</td>
+                            @if($commandes->traite == 1)
+                                <td>Traité</td>
+                            @else
+                                <td>Non traité</td>
+                            @endif
+                            <td>
+                                <form action="{{ route('admin.traite') }}" method="post">
+                                    @csrf
+                                    <input type="hidden" name="id" value="{{ $commande->id }}">
+                                    <input type="submit" value="Traité">
+                                </form>
+                            </td>
                         </tr>
                     @endforeach
                 </table>

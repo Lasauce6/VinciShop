@@ -41,6 +41,14 @@ class AdminController extends Controller
         return redirect()->route('index');
     }
 
+    public function traite(Request $request): RedirectResponse
+    {
+        $commande = Commande::find($request->id);
+        $commande->traite = $commande->traite == 0 ? 1 : 0;
+        $commande->save();
+        return redirect()->route('admin.index');
+    }
+
 //    public function createCreds(): RedirectResponse
 //    {
 //        $user = new \App\Models\User();
