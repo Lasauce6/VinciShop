@@ -108,9 +108,9 @@
                                         </table></td>
                                 </tr>
                                 @foreach($panier as $produit)
-                                        <tr>
-                                            @foreach($produit as $detail)
-                                                @if($loop->index == 1)
+                                    <tr>
+                                        @foreach($produit as $detail)
+                                            @if($loop->index == 1)
                                                 <td align="left" style="padding:0;Margin:0;padding-top:20px;padding-left:20px;padding-right:20px"><!--[if mso]><table style="width:560px" cellpadding="0" cellspacing="0"><tr><td style="width:194px" valign="top"><![endif]-->
                                                     <table cellpadding="0" cellspacing="0" class="es-left" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
                                                         <tr>
@@ -129,41 +129,41 @@
                                                             <td class="es-hidden" style="padding:0;Margin:0;width:20px"></td>
                                                         </tr>
                                                     </table><!--[if mso]></td><td style="width:173px" valign="top"><![endif]-->
-                                                @endif
-                                                @if($loop->index == 2)
-                                                    <table cellpadding="0" cellspacing="0" class="es-left" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
-                                                        <tr>
-                                                            <td class="es-m-p20b" align="center" style="padding:0;Margin:0;width:173px">
-                                                                <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                                    <tr>
-                                                                        <td align="right" class="es-m-p0t es-m-p0b" style="padding:0;Margin:0;padding-top:20px;padding-bottom:20px">
-                                                                            <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#47391f;font-size:14px" class="p_description">
-                                                                                {{ $detail }} €
-                                                                            </p>
-                                                                        </td>
-                                                                    </tr>
-                                                                </table></td>
-                                                        </tr>
-                                                    </table><!--[if mso]></td><td style="width:20px"></td><td style="width:173px" valign="top"><![endif]-->
-                                                @endif
-                                                @if($loop->index == 3)
-                                                    <table cellpadding="0" cellspacing="0" class="es-right" align="right" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right">
-                                                        <tr>
-                                                            <td align="center" style="padding:0;Margin:0;width:173px">
-                                                                <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                                    <tr>
-                                                                        <td align="right" class="es-m-p0t es-m-p0b" style="padding:0;Margin:0;padding-top:20px;padding-bottom:20px">
-                                                                            <p class="p_price" style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#47391f;font-size:14px">
-                                                                                x{{ $detail }}
-                                                                            </p>
-                                                                        </td>
-                                                                    </tr>
-                                                                </table></td>
-                                                        </tr>
-                                                    </table><!--[if mso]></td></tr></table><![endif]--></td>
-                                                @endif
-                                            @endforeach
-                                        </tr>
+                                                    @endif
+                                                    @if($loop->index == 2)
+                                                        <table cellpadding="0" cellspacing="0" class="es-left" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
+                                                            <tr>
+                                                                <td class="es-m-p20b" align="center" style="padding:0;Margin:0;width:173px">
+                                                                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                                        <tr>
+                                                                            <td align="right" class="es-m-p0t es-m-p0b" style="padding:0;Margin:0;padding-top:20px;padding-bottom:20px">
+                                                                                <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#47391f;font-size:14px" class="p_description">
+                                                                                    {{ $detail }} €
+                                                                                </p>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table></td>
+                                                            </tr>
+                                                        </table><!--[if mso]></td><td style="width:20px"></td><td style="width:173px" valign="top"><![endif]-->
+                                                    @endif
+                                                    @if($loop->index == 3)
+                                                        <table cellpadding="0" cellspacing="0" class="es-right" align="right" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right">
+                                                            <tr>
+                                                                <td align="center" style="padding:0;Margin:0;width:173px">
+                                                                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                                        <tr>
+                                                                            <td align="right" class="es-m-p0t es-m-p0b" style="padding:0;Margin:0;padding-top:20px;padding-bottom:20px">
+                                                                                <p class="p_price" style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#47391f;font-size:14px">
+                                                                                    x{{ $detail }}
+                                                                                </p>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table></td>
+                                                            </tr>
+                                                        </table><!--[if mso]></td></tr></table><![endif]--></td>
+                                            @endif
+                                        @endforeach
+                                    </tr>
                                 @endforeach
                                 <tr>
                                     <td align="left" style="padding:0;Margin:0;padding-left:20px;padding-right:20px">
@@ -284,6 +284,21 @@
                                             </tr>
 
                                         </table><!--[if mso]></td></tr></table><![endif]--></td>
+                                </tr>
+                                <tr>
+                                    <td align="left" style="padding:0;Margin:0;padding-left:20px;padding-right:20px;padding-bottom:30px"><!--[if mso]><table style="width:560px" cellpadding="0" cellspacing="0"><tr><td style="width:145px" valign="top"><![endif]-->
+                                        <table cellpadding="0" cellspacing="0" class="es-left" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
+                                            <tr>
+                                                <td class="es-m-p0r es-m-p20b" align="center" style="padding:0;Margin:0;width:200px">
+                                                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                        <tr>
+                                                            <td align="left" style="padding:0;Margin:0"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#47391f;font-size:14px">
+                                                                    <b>Du 14 au 17 mars 2023</b><br>12h20-13h20</p></td>
+                                                        </tr>
+                                                    </table></td>
+                                                <td class="es-hidden" style="padding:0;Margin:0;width:20px"></td>
+                                            </tr>
+                                        </table><!--[if mso]></td><td style="width:145px" valign="top"><![endif]-->
                                 </tr>
                                 <tr>
                                     <td align="center" style="padding:5px;Margin:0"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#47391f;font-size:14px">Nous vous retrouverons à droite du CDI dans le lycée</p></td>

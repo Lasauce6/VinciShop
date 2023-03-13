@@ -127,7 +127,7 @@
                                                 <input type="hidden" name="id" value="{{ $product['id'] }}">
                                                 <div class="input-group">
                                                     <label>
-                                                        <input type="number" name="quantite" value="{{ $product['quantite'] }}" min="1" max="{{ $product['qte'] }}" class="form-control mr-2" style="width: 0">
+                                                        <input type="number" name="quantite" value="{{ $product['quantite'] }}" min="1" max="{{ $product['qte'] }}" class="form-control">
                                                     </label>
                                                 </div>
                                             </td>
@@ -165,9 +165,9 @@
                                        style="color: white; background-color: green;">
                                         Réserver*
                                     </a>
-    {{--                                <a href="{{ route('products') }}" class="btn btn-primary">Continuer votre commande</a>--}}
-    {{--                                <a href="{{ route('cart.destroy') }}" class="btn btn-danger">Vider le panier</a>--}}
-    {{--                                <a href="{{ route('cart.checkout') }}" class="btn btn-success">Réserver</a>--}}
+                                    {{--                                <a href="{{ route('products') }}" class="btn btn-primary">Continuer votre commande</a>--}}
+                                    {{--                                <a href="{{ route('cart.destroy') }}" class="btn btn-danger">Vider le panier</a>--}}
+                                    {{--                                <a href="{{ route('cart.checkout') }}" class="btn btn-success">Réserver</a>--}}
                                 </div>
                                 <p class="text-end mt-1">(Dans la limite des stocks disponibles)</p>
                                 <p class="text-muted text-start mt-5">*Cette commande ne fait compte que de réservation, vous avez rdv dans le lycée aux <a href="/#horaires" class="text-muted text-decoration-underline">horaires d'ouverture du pop up store</a> afin de payer et récupérer vos produits</p>

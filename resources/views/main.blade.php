@@ -613,112 +613,120 @@
     <meta name="msapplication-TileImage" content="https://wp31-c12769-2.btsndrc.ac/wp-content/uploads/2023/02/cropped-logo-ldv-270x270.png">
 </head>
 <body class="page-template-default page wp-embed-responsive has-header-image page-one-column colors-custom customize-support">
-    @yield('content')
+@yield('content')
 
-    <footer id="colophon" class="site-footer mt-2">
-        <div class="container mt-5 pl-5 pr-5">
-            <div class="row ml-5 mr-5 mt-2">
-                <div class="col">
-                    <p><strong>Retrouvez-nous</strong></p>
-                    <p>
-                        <strong>Adresse</strong><br>
-                        2 rue Edouard Branly<br>
-                        77 000 Melun
-                    </p>
+<footer id="colophon" class="site-footer mt-2">
+    <div class="container mt-5 pl-5 pr-5">
+        <div class="row ml-5 mr-5 mt-2">
+            <div class="col">
+                <p><strong>Retrouvez-nous</strong></p>
+                <p>
+                    <strong>Adresse</strong><br>
+                    2 rue Edouard Branly<br>
+                    77 000 Melun
+                </p>
 
-                </div>
-                <div class="col">
-                    <p><strong>Heures d’ouverture</strong></p>
-                    <table>
-                        <tr>
-                            <th>08/03/2023</th>
-                            <th>09/03/2023</th>
-                            <th>10/03/2023</th>
-                            <th>11/03/2023</th>
-                        </tr>
-                        <tr>
-                            <td>12h20-13h25</td>
-                            <td>12h20-13h25</td>
-                            <td>12h20-13h25</td>
-                            <td>8h30-12h30</td>
-                        </tr>
-                        <tr>
-                            <td>17h30-18h30</td>
-                            <td>16h30-18h30</td>
-                            <td>15h30-18h30</td>
-                            <td></td>
-                        </tr>
-                    </table>
-                    <p>Nous vous retrouverons à droite du CDI dans le lycée</p>
-                </div>
             </div>
+            <div class="col">
+                <p><strong>Heures d’ouverture</strong></p>
+                <table>
+                    <tr>
+                        <th>08/03/2023</th>
+                        <th>09/03/2023</th>
+                        <th>10/03/2023</th>
+                        <th>11/03/2023</th>
+                    </tr>
+                    <tr>
+                        <td>12h20-13h25</td>
+                        <td>12h20-13h25</td>
+                        <td>12h20-13h25</td>
+                        <td>8h30-12h30</td>
+                    </tr>
+                    <tr>
+                        <td>17h30-18h30</td>
+                        <td>16h30-18h30</td>
+                        <td>15h30-18h30</td>
+                        <td></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <th>Du 14 au 17 mars 2023</th>
+                    </tr>
+                    <tr>
+                        <td>12h20-13h20</td>
+                    </tr>
+                </table>
+                <p>Nous vous retrouverons à droite du CDI dans le lycée</p>
+            </div>
+        </div>
 
-            <div class="row mt-5 mb-2">
-                <div class="col-4 offset-md-5">
+        <div class="row mt-5 mb-2">
+            <div class="col-4 offset-md-5">
+                <a href="https://www.vinci-melun.org/">
+                    <img src="{{ asset('storage/images/logo.png') }}" width="50%">
+                </a>
+                <div class="mt-2">
                     <a href="https://www.vinci-melun.org/">
-                        <img src="{{ asset('storage/images/logo.png') }}" width="50%">
+                        <p>Lycée polyvalent Léonard de Vinci</p>
                     </a>
-                    <div class="mt-2">
-                        <a href="https://www.vinci-melun.org/">
-                            <p>Lycée polyvalent Léonard de Vinci</p>
-                        </a>
-                    </div>
                 </div>
             </div>
+        </div>
 
-            <hr class="wp-block-separator has-alpha-channel-opacity">
+        <hr class="wp-block-separator has-alpha-channel-opacity">
 
-            <div class="row mt-5 mb-5">
-                <div class="col-4 offset-md-5">
-                    <a href="https://github.com/Lasauce6">
-                        <p>Création du site : Raphaël BATICLE</p>
-                    </a>
-                </div>
+        <div class="row mt-5 mb-5">
+            <div class="col-4 offset-md-5">
+                <a href="https://github.com/Lasauce6">
+                    <p>Création du site : Raphaël BATICLE</p>
+                </a>
+            </div>
 
 
         </div>
 
-        {{--                    <nav class="social-navigation" aria-label="Menu de liens sociaux de pied de page">--}}
-        {{--                        <div class="menu-menu-des-liens-de-reseaux-sociaux-container"><ul id="menu-menu-des-liens-de-reseaux-sociaux" class="social-links-menu"><li id="menu-item-26" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26"><a href="https://www.yelp.com"><span class="screen-reader-text">Yelp</span><svg class="icon icon-yelp" aria-hidden="true" role="img"> <use href="#icon-yelp" xlink:href="#icon-yelp"></use> </svg></a></li>--}}
-        {{--                                <li id="menu-item-27" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27"><a href="https://www.facebook.com/wordpress"><span class="screen-reader-text">Facebook</span><svg class="icon icon-facebook" aria-hidden="true" role="img"> <use href="#icon-facebook" xlink:href="#icon-facebook"></use> </svg></a></li>--}}
-        {{--                                <li id="menu-item-28" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28"><a href="https://twitter.com/wordpress"><span class="screen-reader-text">Twitter</span><svg class="icon icon-twitter" aria-hidden="true" role="img"> <use href="#icon-twitter" xlink:href="#icon-twitter"></use> </svg></a></li>--}}
-        {{--                                <li id="menu-item-29" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29"><a href="https://www.instagram.com/explore/tags/wordcamp/"><span class="screen-reader-text">Instagram</span><svg class="icon icon-instagram" aria-hidden="true" role="img"> <use href="#icon-instagram" xlink:href="#icon-instagram"></use> </svg></a></li>--}}
-        {{--                                <li id="menu-item-30" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30"><a href="mailto:wordpress@example.com"><span class="screen-reader-text">E-mail</span><svg class="icon icon-envelope-o" aria-hidden="true" role="img"> <use href="#icon-envelope-o" xlink:href="#icon-envelope-o"></use> </svg></a></li>--}}
-        {{--                            </ul></div>					</nav><!-- .social-navigation -->--}}
-    </footer><!-- #colophon -->
-    </div><!-- .site-content-contain -->
-    </div><!-- #page -->
-    <style id="core-block-supports-inline-css">
-        .wp-block-buttons.wp-container-3 {
-            justify-content: center;
-            align-items: flex-end;
-        }
-    </style>
-    <script src="https://wp31-c12769-2.btsndrc.ac/wp-includes/js/hoverintent-js.min.js?ver=2.2.1"
-            id="hoverintent-js-js"></script>
-    <script src="https://wp31-c12769-2.btsndrc.ac/wp-includes/js/admin-bar.min.js?ver=6.1.1" id="admin-bar-js"></script>
-    <script id="twentyseventeen-skip-link-focus-fix-js-extra">
-        var twentyseventeenScreenReaderText = {
-            "quote": "<svg class=\"icon icon-quote-right\" aria-hidden=\"true\" role=\"img\"> <use href=\"#icon-quote-right\" xlink:href=\"#icon-quote-right\"><\/use> <\/svg>",
-            "expand": "Ouvrir le sous-menu",
-            "collapse": "Fermer le sous-menu",
-            "icon": "<svg class=\"icon icon-angle-down\" aria-hidden=\"true\" role=\"img\"> <use href=\"#icon-angle-down\" xlink:href=\"#icon-angle-down\"><\/use> <span class=\"svg-fallback icon-angle-down\"><\/span><\/svg>"
-        };
-    </script>
-    <script
-        src="https://wp31-c12769-2.btsndrc.ac/wp-content/themes/twentyseventeen/assets/js/skip-link-focus-fix.js?ver=20161114"
-        id="twentyseventeen-skip-link-focus-fix-js"></script>
-    <script
-        src="https://wp31-c12769-2.btsndrc.ac/wp-content/themes/twentyseventeen/assets/js/navigation.js?ver=20210122"
-        id="twentyseventeen-navigation-js"></script>
-    <script src="https://wp31-c12769-2.btsndrc.ac/wp-content/themes/twentyseventeen/assets/js/global.js?ver=20211130"
-            id="twentyseventeen-global-js"></script>
-    <script
-        src="https://wp31-c12769-2.btsndrc.ac/wp-content/themes/twentyseventeen/assets/js/jquery.scrollTo.js?ver=2.1.3"
-        id="jquery-scrollto-js"></script>
+    {{--                    <nav class="social-navigation" aria-label="Menu de liens sociaux de pied de page">--}}
+    {{--                        <div class="menu-menu-des-liens-de-reseaux-sociaux-container"><ul id="menu-menu-des-liens-de-reseaux-sociaux" class="social-links-menu"><li id="menu-item-26" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26"><a href="https://www.yelp.com"><span class="screen-reader-text">Yelp</span><svg class="icon icon-yelp" aria-hidden="true" role="img"> <use href="#icon-yelp" xlink:href="#icon-yelp"></use> </svg></a></li>--}}
+    {{--                                <li id="menu-item-27" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27"><a href="https://www.facebook.com/wordpress"><span class="screen-reader-text">Facebook</span><svg class="icon icon-facebook" aria-hidden="true" role="img"> <use href="#icon-facebook" xlink:href="#icon-facebook"></use> </svg></a></li>--}}
+    {{--                                <li id="menu-item-28" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28"><a href="https://twitter.com/wordpress"><span class="screen-reader-text">Twitter</span><svg class="icon icon-twitter" aria-hidden="true" role="img"> <use href="#icon-twitter" xlink:href="#icon-twitter"></use> </svg></a></li>--}}
+    {{--                                <li id="menu-item-29" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29"><a href="https://www.instagram.com/explore/tags/wordcamp/"><span class="screen-reader-text">Instagram</span><svg class="icon icon-instagram" aria-hidden="true" role="img"> <use href="#icon-instagram" xlink:href="#icon-instagram"></use> </svg></a></li>--}}
+    {{--                                <li id="menu-item-30" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30"><a href="mailto:wordpress@example.com"><span class="screen-reader-text">E-mail</span><svg class="icon icon-envelope-o" aria-hidden="true" role="img"> <use href="#icon-envelope-o" xlink:href="#icon-envelope-o"></use> </svg></a></li>--}}
+    {{--                            </ul></div>					</nav><!-- .social-navigation -->--}}
+</footer><!-- #colophon -->
+</div><!-- .site-content-contain -->
+</div><!-- #page -->
+<style id="core-block-supports-inline-css">
+    .wp-block-buttons.wp-container-3 {
+        justify-content: center;
+        align-items: flex-end;
+    }
+</style>
+<script src="https://wp31-c12769-2.btsndrc.ac/wp-includes/js/hoverintent-js.min.js?ver=2.2.1"
+        id="hoverintent-js-js"></script>
+<script src="https://wp31-c12769-2.btsndrc.ac/wp-includes/js/admin-bar.min.js?ver=6.1.1" id="admin-bar-js"></script>
+<script id="twentyseventeen-skip-link-focus-fix-js-extra">
+    var twentyseventeenScreenReaderText = {
+        "quote": "<svg class=\"icon icon-quote-right\" aria-hidden=\"true\" role=\"img\"> <use href=\"#icon-quote-right\" xlink:href=\"#icon-quote-right\"><\/use> <\/svg>",
+        "expand": "Ouvrir le sous-menu",
+        "collapse": "Fermer le sous-menu",
+        "icon": "<svg class=\"icon icon-angle-down\" aria-hidden=\"true\" role=\"img\"> <use href=\"#icon-angle-down\" xlink:href=\"#icon-angle-down\"><\/use> <span class=\"svg-fallback icon-angle-down\"><\/span><\/svg>"
+    };
+</script>
+<script
+    src="https://wp31-c12769-2.btsndrc.ac/wp-content/themes/twentyseventeen/assets/js/skip-link-focus-fix.js?ver=20161114"
+    id="twentyseventeen-skip-link-focus-fix-js"></script>
+<script
+    src="https://wp31-c12769-2.btsndrc.ac/wp-content/themes/twentyseventeen/assets/js/navigation.js?ver=20210122"
+    id="twentyseventeen-navigation-js"></script>
+<script src="https://wp31-c12769-2.btsndrc.ac/wp-content/themes/twentyseventeen/assets/js/global.js?ver=20211130"
+        id="twentyseventeen-global-js"></script>
+<script
+    src="https://wp31-c12769-2.btsndrc.ac/wp-content/themes/twentyseventeen/assets/js/jquery.scrollTo.js?ver=2.1.3"
+    id="jquery-scrollto-js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
-    @yield('scripts')
+@yield('scripts')
 </body>
 </html>
