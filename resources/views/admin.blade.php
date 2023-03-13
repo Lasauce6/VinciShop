@@ -97,7 +97,6 @@
                         <th>Total</th>
                         <th>Date</th>
                         <th>Traitée</th>
-                        <th></th>
                     </tr>
 
                     @foreach($commandes as $commande)
@@ -121,12 +120,11 @@
                             </td>
                             <td>{{ $commande->total }} €</td>
                             <td>{{ $commande->created_at }}</td>
-                            <td>{{ $commande->etat }}</td>
                             <td>
                                 <form action="{{ route('admin.traite') }}" method="post">
                                     @csrf
                                     <input type="hidden" name="id" value="{{ $commande->id }}">
-                                    <input type="submit" value="Traité">
+                                    <input type="submit" value="{{ $commande->etat }}">
                                 </form>
                             </td>
                         </tr>
