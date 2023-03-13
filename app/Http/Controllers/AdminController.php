@@ -44,7 +44,7 @@ class AdminController extends Controller
     public function traite(Request $request): RedirectResponse
     {
         $commande = Commande::find($request->id);
-        $commande->traite = $commande->traite == 0 ? 1 : 0;
+        $commande->etat = $commande->traite == 'En attente' ? 'Traitée' : 'En attente';
         $commande->save();
         return redirect()->route('admin.index');
     }

@@ -123,6 +123,7 @@ class CartController extends Controller {
         $commande->email = $request->email;
         $commande->panier = json_encode($cart);
         $commande->total = $total;
+        $commande->etat = 'En attente';
         $commande->save();
 
         session()->forget('cart');

@@ -121,11 +121,7 @@
                             </td>
                             <td>{{ $commande->total }} €</td>
                             <td>{{ $commande->created_at }}</td>
-                            @if($commandes->traite == 1)
-                                <td>Traité</td>
-                            @else
-                                <td>Non traité</td>
-                            @endif
+                            <td>{{ $commande->etat }}</td>
                             <td>
                                 <form action="{{ route('admin.traite') }}" method="post">
                                     @csrf
