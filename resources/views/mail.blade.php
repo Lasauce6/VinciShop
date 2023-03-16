@@ -73,7 +73,7 @@
                                                             <td align="center" style="padding:0;Margin:0"><h1 style="Margin:0;line-height:36px;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-size:30px;font-style:normal;font-weight:bold;color:#47391f">Votre commande a été prise en compte</h1></td>
                                                         </tr>
                                                         <tr>
-                                                            <td align="center" style="padding:0;Margin:0;padding-top:5px;padding-bottom:5px"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#47391f;font-size:14px">Votre commande a bien été réservée (dans la limte des stocks disponibles)</p></td>
+                                                            <td align="center" style="padding:0;Margin:0;padding-top:5px;padding-bottom:5px"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#47391f;font-size:14px">Votre commande a bien été réservée (dans la limite des stocks disponibles)</p></td>
                                                         </tr>
                                                     </table></td>
                                             </tr>
